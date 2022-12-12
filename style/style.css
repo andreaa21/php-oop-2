@@ -3,10 +3,33 @@ body{
 }
 
 img{
-    width: 100%;
+width: 100%;
+}
+
+.debug{
+    background-color: rgba(0, 0, 255, .25);
+    border: 1px solid red;
+}
+
+header, footer{
+    height: 80px;
+}
+
+main{
+    height: calc(100vh -160px);
 }
 
 .x-card{
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
+    background-color: gainsboro;
+}
+.card-image{
+    overflow: hidden;
+    object-fit: contain;
+}
+.icon img{
+    width: 50px;
+    height: 50px;
+
 }

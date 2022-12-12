@@ -19,6 +19,4 @@ require './database/db.php';
 //views
 
 include __DIR__ . '/views/layout/head.php';
-include __DIR__ . '/views/layout/header.php';
 include __DIR__ . '/views/layout/main.php';
-include __DIR__ . '/views/layout/footer.php';

@@ -19,4 +19,9 @@ class Product
         $this->category = $_category;
         $this->price = $_price;
     }
+
+    public function setImage($_image)
+    {
+        $this->image = $_image;
+    }
 }

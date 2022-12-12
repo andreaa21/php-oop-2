@@ -6,6 +6,8 @@ class Food extends Product
     public $ingredients;
     public $flavour;
 
+
+
     public function __construct($_product_id, Category $_category, $_name, $_brand, $_price, $_weight, $_ingredients, $_flavour)
     {
         parent::__construct($_product_id, $_category, $_name, $_brand, $_price);

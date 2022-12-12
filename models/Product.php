@@ -16,7 +16,6 @@ class Product
         $this->category = $_category;
         $this->name = $_name;
         $this->brand = $_brand;
-        $this->category = $_category;
         $this->price = $_price;
     }
 

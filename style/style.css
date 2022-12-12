@@ -1,0 +1,12 @@
+body{
+    background-color: cornflowerblue;
+}
+
+img{
+    width: 100%;
+}
+
+.x-card{
+    width: 300px;
+    height: 300px;
+}

@@ -12,3 +12,5 @@ $product3->setImage('https://www.byaldino.com/wp-content/uploads/2020/10/legowis
 
 $product4 = new Food('04', new Category('gatto'), 'crocchette', 'Ultima', 38.99, '10kg', 'salmone, cereali', 'salmone');
 $product4->setImage('https://shop-cdn-m.mediazs.com/bilder/ultima/cat/sterilized/salmone/6/400/1605795730288_1_6.jpg');
+
+$productList = [$product1, $product2, $product3, $product4];
